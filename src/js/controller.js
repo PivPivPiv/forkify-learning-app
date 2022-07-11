@@ -7,6 +7,7 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
+
 //---------------- polyfiling------------------------
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -123,7 +124,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
 
   addRecipeView.addhandlerUpload(controlAddRecipe);
-  console.log('Welcome!');
 };
 
 init();
