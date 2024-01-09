@@ -60,7 +60,7 @@ const controlPagination = function (page) {
 };
 
 const controlServings = function (newServings) {
-  // upadte recipe servings in state
+  // updte recipe servings in state
   model.updateServings(newServings);
 
   // update viev
